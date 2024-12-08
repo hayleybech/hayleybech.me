@@ -3,14 +3,16 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ title }} — {{ settings:site_name }}">
 <meta property="og:description" content="{{ excerpt ?? title }}">
-{{ if featured_image }}
-    <meta property="og:image" content="{{ featured_image }}">
-{{ /if }}
+{{ featured_image }}
+    <meta property="og:image" content="{{ permalink }}">
+{{ /featured_image }}
 
 <!-- Twitter Meta Tags -->
 {{ if featured_image }}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ featured_image }}">
+    {{ featured_image }}
+        <meta name="twitter:image" content="{{ permalink }}">
+    {{ /featured_image }}
 {{ else }}
     <meta name="twitter:card" content="summary">
 {{ /if }}

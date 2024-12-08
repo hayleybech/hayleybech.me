@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hayley-bech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hayley-bech.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_social_meta.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_social_meta.antlers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +216,7 @@
       <updated>1733458184709</updated>
       <workItem from="1733458186333" duration="1367000" />
       <workItem from="1733493236621" duration="5457000" />
-      <workItem from="1733627666374" duration="1082000" />
+      <workItem from="1733627666374" duration="1892000" />
     </task>
     <servers />
   </component>
