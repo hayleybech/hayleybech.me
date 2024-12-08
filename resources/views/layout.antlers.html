@@ -10,6 +10,7 @@
         {{ if environment == 'production' }}
             {{ partial:ga }}
         {{ /if }}
+        {{ partial:social_meta }}
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
     <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">

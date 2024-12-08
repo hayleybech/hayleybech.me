@@ -1,0 +1,21 @@
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{  permalink }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title }} — {{ settings:site_name }}">
+<meta property="og:description" content="{{ excerpt ?? title }}">
+{{ if featured_image }}
+    <meta property="og:image" content="{{ featured_image }}">
+{{ /if }}
+
+<!-- Twitter Meta Tags -->
+{{ if featured_image }}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ featured_image }}">
+{{ else }}
+    <meta name="twitter:card" content="summary">
+{{ /if }}
+
+<meta property="twitter:domain" content="hayleybech.me">
+<meta property="twitter:url" content="{{  permalink }}">
+<meta name="twitter:title" content="{{ title }} — {{ settings:site_name }}h">
+<meta name="twitter:description" content="{{ excerpt ?? title }}">
