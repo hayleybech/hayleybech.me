@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/collections/articles/2024-12-06.topic-ideas.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/articles/2024-12-06.topic-ideas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_social_meta.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_social_meta.antlers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Herd">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
@@ -161,6 +161,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/hedger/laravel-envicon" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -176,8 +177,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/hayde/Herd/choirconcierge",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/hayde/Herd/hayley-bech/public/favicons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -189,6 +190,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hayde\Herd\hayley-bech\public\favicons" />
       <recent name="C:\Users\hayde\Herd\hayleybech.me" />
     </key>
   </component>

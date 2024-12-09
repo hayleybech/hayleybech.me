@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac5160485c36096c7d33b346fff5de31",
+    "content-hash": "fdedd511629364cd733cd9bdc1412dca",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1250,6 +1250,63 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "hedger/laravel-envicon",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nhedger/laravel-envicon.git",
+                "reference": "94908d48886312a038108df0d6611a6f4fb21a27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nhedger/laravel-envicon/zipball/94908d48886312a038108df0d6611a6f4fb21a27",
+                "reference": "94908d48886312a038108df0d6611a6f4fb21a27",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^9.0 || ^10.0",
+                "php": "~8.0 || ~8.1 || ~8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0 || ^8.0",
+                "phpunit/phpunit": "^9.0 || ^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hedger\\Envicon\\ServiceProvider"
+                    ],
+                    "aliases": {
+                        "Envicon": "Hedger\\Envicon\\Facades\\Envicon"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hedger\\Envicon\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Hedger",
+                    "email": "nicolas@hedger.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Use a different favicon depending on your current runtime environment",
+            "homepage": "https://github.com/nhedger/envicon",
+            "support": {
+                "issues": "https://github.com/nhedger/laravel-envicon/issues",
+                "source": "https://github.com/nhedger/laravel-envicon/tree/v2.0"
+            },
+            "time": "2023-06-13T19:19:22+00:00"
         },
         {
             "name": "intervention/image",
