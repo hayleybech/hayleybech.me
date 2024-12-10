@@ -6,7 +6,11 @@
             {{ content }}
         </header>
         {{ taxonomy:topics sort="title" }}
-            <h2 class="text-4xl font-bold hover:text-teal"><a href="{{ url }}">{{ title | title }}</a></h2>
+            {{ articles_count = {term_entries_count collection="articles" :term="id"} }}
+            {{ if articles_count > 0 }}
+                <h2 class="text-4xl font-bold hover:text-teal"><a href="{{ url }}">{{ title | title }}</a></h2>
+                <p class="mb-4 text-gray-600">{{ articles_count }} {{ "article" | plural($articles_count) }}</p>
+            {{ /if }}
         {{ /taxonomy:topics }}
     </article>
 </div>
