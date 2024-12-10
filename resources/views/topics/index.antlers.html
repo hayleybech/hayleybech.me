@@ -6,6 +6,8 @@
             {{ content }}
         </header>
         {{ taxonomy:topics sort="title" }}
+            {{# Fixes unpublished articles being included in count #}}
+            {{# Fixed in Statamic v5, safe to remove this after update #}}
             {{ articles_count = {term_entries_count collection="articles" :term="id"} }}
             {{ if articles_count > 0 }}
                 <h2 class="text-4xl font-bold hover:text-teal"><a href="{{ url }}">{{ title | title }}</a></h2>
