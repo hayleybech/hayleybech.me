@@ -38,6 +38,11 @@ return [
     */
 
     'widgets' => [
+        [
+            'type' => 'collection',
+            'collection' => 'articles',
+            'limit' => 10,
+        ],
         'getting_started',
     ],
 
