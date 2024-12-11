@@ -42,6 +42,7 @@ return [
             'type' => 'collection',
             'collection' => 'articles',
             'limit' => 10,
+            'fields' => ['date'],
         ],
         'getting_started',
     ],
