@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.antlers.html" afterDir="false" />
-    </list>
+    <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +221,7 @@
       <workItem from="1733912150512" duration="605000" />
       <workItem from="1733980100146" duration="724000" />
       <workItem from="1734067413016" duration="1820000" />
-      <workItem from="1734394360848" duration="6631000" />
+      <workItem from="1734394360848" duration="8477000" />
     </task>
     <servers />
   </component>
