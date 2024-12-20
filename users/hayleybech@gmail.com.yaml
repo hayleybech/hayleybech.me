@@ -7,3 +7,9 @@ preferences:
   collections:
     articles:
       after_save: continue_editing
+      columns:
+        - status
+        - title
+        - author
+        - date
+        - topics
