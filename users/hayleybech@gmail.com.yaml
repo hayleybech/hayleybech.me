@@ -13,3 +13,4 @@ preferences:
         - author
         - date
         - topics
+  theme: light

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="" />
+    <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hayley-bech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hayley-bech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/statamic/sites.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/statamic/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/statamic/cp/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/statamic/cp/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/statamic/frontend/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/statamic/frontend/js/helpers.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +96,6 @@
       <path value="$PROJECT_DIR$/vendor/nette/schema" />
       <path value="$PROJECT_DIR$/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/league/glide" />
       <path value="$PROJECT_DIR$/vendor/league/config" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
@@ -116,12 +125,10 @@
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
       <path value="$PROJECT_DIR$/vendor/laravel/pint" />
-      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
       <path value="$PROJECT_DIR$/vendor/michelf/php-smartypants" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
@@ -159,6 +166,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/hedger/laravel-envicon" />
+      <path value="$PROJECT_DIR$/vendor/stillat/blade-parser" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -221,7 +229,7 @@
       <workItem from="1733912150512" duration="605000" />
       <workItem from="1733980100146" duration="724000" />
       <workItem from="1734067413016" duration="1820000" />
-      <workItem from="1734394360848" duration="8477000" />
+      <workItem from="1734394360848" duration="11353000" />
     </task>
     <servers />
   </component>
