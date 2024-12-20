@@ -13,16 +13,21 @@
 
         <h2 class="text-3xl mb-8">Some recent articles</h2>
         {{ articles }}
-            <div class="mb-16">
-                <h3 class="mb-4">
-                    <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
-                        {{ title | widont }}
-                    </a>
-                </h3>
-                <p class="text-gray-600">
-                    <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
-                    {{ excerpt | widont ?? content | strip_tags | safe_truncate(150, '...') }}
-                </p>
+            <div class="mb-16 flex gap-4 flex-col md:flex-row">
+                {{ featured_image }}
+                    <img src="{{ url }}" alt="{{ alt }}" title="{{  alt }}" class="aspect-video md:max-h-24 object-contain" />
+                {{  /featured_image }}
+                <div>
+                    <h3 class="mb-4">
+                        <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
+                            {{ title | widont }}
+                        </a>
+                    </h3>
+                    <p class="text-gray-600">
+                        <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
+                        {{ excerpt | widont ?? content | strip_tags | safe_truncate(150, '...') }}
+                    </p>
+                </div>
             </div>
         {{ /articles }}
     {{ /collection:articles }}

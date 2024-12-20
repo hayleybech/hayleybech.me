@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5719c3b-1e65-4c7d-bfe6-f70baf5800d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hayley-bech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hayley-bech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/sites.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/statamic/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/statamic/system.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/statamic/cp/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/statamic/cp/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/statamic/frontend/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/statamic/frontend/js/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/articles/2024-12-17.the-best-way-to-get-a-logo-designed.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/articles/2024-12-17.the-best-way-to-get-a-logo-designed.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/articles/index.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/index.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.antlers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +224,7 @@
       <workItem from="1733912150512" duration="605000" />
       <workItem from="1733980100146" duration="724000" />
       <workItem from="1734067413016" duration="1820000" />
-      <workItem from="1734394360848" duration="11353000" />
+      <workItem from="1734394360848" duration="13362000" />
     </task>
     <servers />
   </component>
