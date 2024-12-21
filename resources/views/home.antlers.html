@@ -14,9 +14,9 @@
         <h2 class="text-3xl mb-8">Some recent articles</h2>
         {{ articles }}
             <div class="mb-16 flex gap-4 flex-col md:flex-row">
-                {{ featured_image }}
-                    <img src="{{ url }}" alt="{{ alt }}" title="{{  alt }}" class="aspect-video md:max-h-24 object-contain" />
-                {{  /featured_image }}
+{{#                 {{ featured_image }} #}}
+{{#                     <img src="{{ url }}" alt="{{ alt }}" title="{{  alt }}" class="aspect-video md:max-h-24 object-contain" /> #}}
+{{#                 {{  /featured_image }} #}}
                 <div>
                     <h3 class="mb-4">
                         <a href="{{ url }}" class="text-2xl hover:text-teal tracking-tight leading-tight font-bold">
